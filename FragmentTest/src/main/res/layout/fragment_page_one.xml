@@ -36,5 +36,23 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv_one" />
 
+    <Button
+        android:id="@+id/btn_open_child_fm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/et_one"
+        android:layout_centerHorizontal="true"
+        android:text="打开子Fragment" />
+
+    <Button
+        android:id="@+id/btn_open_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btn_open_child_fm"
+        android:layout_centerHorizontal="true"
+        android:text="打开一个Dialog" />
+
 
 </RelativeLayout>
